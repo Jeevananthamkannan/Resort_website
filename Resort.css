@@ -1,0 +1,662 @@
+/* CSS For First Page */
+.house-div{
+  position: relative;
+}
+.house-image{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.overlay{
+  position: absolute;
+  top: 130px;
+  left: 90px;
+}
+.place{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: white;
+  justify-content: center;
+  width: 140px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight:400px;
+  padding-left: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 0px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+.content{
+  font-size: 40px;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.toronto{
+  margin-right: 0px;
+}
+.canada{
+  color: red;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight:400px;
+}
+
+
+
+/* CSS For Second Page */
+.second-page{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+  margin-right: 180px;
+}
+.total{
+  margin-top: 30px;
+  display: flex;
+  margin-right: 0px;
+  position: relative;
+  width: 600px;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+.house-div2{
+  display: flex;
+}
+.house-image2{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.para-div2{
+  margin-left: 20px;
+}
+.best,.Appartment,.sea{
+  font-size: 25px;
+  font-family: work Sans;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.links{
+  position: absolute;
+  width: 355px;
+  background-color: rgb(249, 249, 249);
+  top: 160px;
+  right: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.link-header{
+  color: red;
+  font-family: Nunito sans;
+  font-size: 13px;
+  font-weight:500;
+}
+.feature{
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.featured-image{
+  display: flex;
+}
+.para1,.para2,.para3{
+  font-family: Nunito sans;
+  font-size: 13px;
+  font-weight:500;
+}
+.span{
+  font-family: Nunito sans;
+  font-size: 13px;
+  font-weight:500;
+  color: rgb(45, 115, 255);
+}
+.space-div{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 150px;
+  margin-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+  margin-left: 0px;
+}
+.space-div1,.space-div2,.space-div3,.space-div4{
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.heading{
+  font-family: Nunito sans;
+  font-weight: bold;
+  margin-bottom: 3px;  
+}
+.sub {
+  font-size: 11px;
+  font-family: Roboto;
+  color: gray;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(216, 215, 215); /* Add this line */
+  }
+
+  /* CSS For Third Page */
+  .image-3{
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .house-image3{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: blur(5px) drop-shadow(0 0 5px black);
+    z-index: 0;
+  }
+  .overlay2{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+  }
+  .view{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(208, 30, 30);
+    margin-bottom: 20px;
+    margin-left: 85px;
+  }
+  .closer{
+    font-family: work Sans ;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  .different{
+    font-family: work Sans ;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+  .overlay3-div{
+    position: absolute;
+  }
+  .overlay3{
+    position: relative;
+    margin-top: -250px;
+    margin-left: 500px; 
+  }
+  .overlay-image-1{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    z-index: 100;
+  }
+  .play-logo{
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    cursor: pointer;
+  }
+  .total-number-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .number-div{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(227, 165, 165, 0.409);
+    width: 150px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+  }
+  .number{
+    font-size: 30px;
+    font-family: work Sans;
+    font-weight: bold;
+    color: rgb(241, 77, 17);
+  }
+  .name{
+    margin-left: 20px;
+  }
+  .name div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+
+  /* CSS For Fourth Page */
+  .best-deals-page{
+    margin-top: 100px;
+    background-color: rgb(246, 246, 246);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+  }
+  .best-deal-header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .deals{
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+  }
+  .line1,.line2{
+    font-family: work Sans;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .header-button1{
+    background-color: rgb(245, 117, 48);
+    color: white;
+    font-family: roboto;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    margin-right: 6px;
+    cursor: pointer;
+  }
+  .header-button2,.header-button3{
+    background-color: black;
+    color: white;
+    font-family: roboto;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .header-button2{
+    margin-right: 6px;
+  }
+  .header-button3{
+    margin-right: 6px;
+  }
+  .bestdeals-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .content-left{
+    width: 220px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+    height: 300px;
+  }
+  .no1,.no2,.no3,.no4,.no5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  .no1{
+    padding-top: 20px;
+  }
+  .details{
+    color: gray;
+    font-size: 10px;
+    font-family: Nunito sans;
+  }
+  .values{
+    font-family: work Sans;
+    font-weight: bold;
+  }
+  .content-middle-image-div{
+    margin-left: 20px;
+  }
+  .content-middle-image{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    object-position: right;
+  }
+  .content-right{
+    margin-left: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-right-header,.content-right-para1{
+    margin-bottom: 20px;
+  }
+  .content-right-heading{
+    font-family:work Sans;
+    font-weight: bold;
+    margin-left: -40px;
+  }
+  .content-right-para1,.content-right-para2{
+    font-family: work Sans;
+    font-size: 12px;
+  }
+  .content-right-para2{
+    margin-bottom: 50px;
+  }
+  .schedule-button{
+    width: 180px;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 150px;
+    cursor: pointer;
+  }
+
+  /* CSS For Fifth Page */
+  .property-page{
+    margin-bottom: 50px;
+  }
+  .property-page-headdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .property-para{
+    margin-bottom: 6px;
+    font-size: 30px;
+    font-family: work Sans;
+    font-weight: bold;
+  }
+  .property-page-3div{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .property-page-contentdiv{
+    width: 300px;
+    border-width: 1px;
+    background-color: rgb(245, 245, 245);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .property-1-image{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .property-1-content-firstline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .luxury{
+    background-color: rgb(255, 202, 184) ;
+    font-family: work Sans;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+  }
+  .luxury-value{
+    color: red;
+    font-family: work Sans;
+    font-weight: bold ;
+    font-size: 13px;
+  }
+  .property-address{
+    font-family: work Sans;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .bathrooms-bedrooms-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  .bathrooms-bedrooms-div div{
+    margin-right: 20px;
+    font-family: work Sans;
+    color: rgb(191, 190, 190);
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .value-floor{
+    font-weight: bold;
+    color: black;
+  }
+  .area-floor-parking{
+    display: flex;
+  }
+  .area-floor-parking div{
+    font-family: work Sans;
+    font-size: 12px;
+    color:rgb(189, 187, 187);
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  .property-schedule{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  /* CSS Property For Sixth Page */
+  .house-image4-div{
+    position: relative;
+    border: 0px solid rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .house-image4{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: blur(5px) drop-shadow(0 0 5px rgb(195, 195, 195));
+  }
+  .contact-us-touch{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+  }
+  .get-touch-withus{
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    left: 610px;
+  }
+ .Our-agents{
+  font-family: work Sans ;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 40px;
+ }
+ .map{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 200px;
+ }
+ .forms{
+  width: 300px;
+  background-color: white;
+  margin-left: 50px;
+  padding-top: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .content-map{
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ .google-map-image{
+  width: 525px;
+  height: 500px;
+  object-fit: cover;
+ }
+ .map-image{
+  
+  margin-bottom: 40px;
+  
+ }
+ .mobile-logo{
+  width: 30px;
+ }
+ .mail-logo{
+  width: 30px;
+ }
+ .content-1{
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  width: 170px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+
+ }
+ .content-2{
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  width: 160px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+ }
+ .contact{
+  margin-top: -5px;
+  margin-left: 25px;
+ }
+ .phone-number{
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-family:work sans;
+ }
+ .phone-text{
+  font-size: 10px;
+  font-family: work Sans;
+  color: rgb(175, 175, 175);
+ }
+ .mail-id{
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-family:work Sans;
+ }
+ .mail-text{
+  font-size: 10px;
+  font-family: work Sans;
+  color: rgb(175, 175, 175);
+ }
+ .full-name,.email-address,.Subject,.message{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+ }
+ .label{
+  margin-bottom: 10px;
+  font-family: work Sans;
+  color: rgb(139, 139, 139);
+  font-size: 14px;
+ }
+ .text-box{
+  height: 25px;
+  background-color: rgb(223, 223, 223);
+  border: none;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ }
+ .message-box{
+  background-color: rgb(223, 223, 223);
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  padding-bottom: 100px;
+  
+ }
+.text-box::placeholder{
+  padding-left: 18px;
+  font-family: work Sans;
+  font-size: 12px;
+}
+.message-box::placeholder{
+  padding-left: 18px;
+  font-family: work Sans;
+  font-size: 12px;
+}
+.send-message{
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: work Sans;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+ 
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+
+
